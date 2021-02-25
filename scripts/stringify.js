@@ -1,4 +1,4 @@
-const lockfile = require('@yarnpkg/lockfile');
+const lockfile = require('./yarn-lock');
 const util = require('./util');
 
 util.processStdin().then((stdin) => {
